@@ -1,15 +1,24 @@
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+# Compiled output / Angular build
+/dist/
+/out-tsc/
+/tmp/
+/coverage/
+/e2e/test-output/
+/.bazel-out
+/.angular/
+/.angular-cli.json
+/.ng/
 
-# Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+# Node modules and dependency files
+/node_modules/
+/package-lock.json
+/yarn.lock
 
-# Node
-/node_modules
-npm-debug.log
-yarn-error.log
+# Environment files
+/.env
+
+# TypeScript cache
+*.tsbuildinfo
 
 # IDEs and editors
 .idea/
@@ -29,16 +38,16 @@ yarn-error.log
 !.vscode/mcp.json
 .history/*
 
-# Miscellaneous
-/.angular/cache
-.sass-cache/
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 /connect.lock
-/coverage
 /libpeerconnection.log
 testem.log
-/typings
-__screenshots__/
 
-# System files
-.DS_Store
+# Miscellaneous
+/.sass-cache/
+/__screenshots__/
+/.DS_Store
 Thumbs.db
