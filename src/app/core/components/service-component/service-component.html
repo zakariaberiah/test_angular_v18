@@ -1,0 +1,41 @@
+<section class="service-container">
+
+  <!-- TITLE GLOBAL -->
+  <div>
+    <app-titel-component 
+      [title]="'SERVICES.TITLE' | translate">
+    </app-titel-component>
+  </div>
+
+  <!-- CUSTOM SERVICES (ta section) -->
+  <div class="service-card">
+    @for (item of items; track item.id) {
+      <app-card-component
+        [title]="item.title | translate"
+        [description]="item.description | translate"
+        [icon]="item.icon">
+      </app-card-component>
+    }
+  </div>
+
+  <!-- CTA SECTION -->
+  <div class="service-title">
+    <h1>
+      {{ 'SERVICES.CTA.START' | translate }}
+      <span class="highlight">
+        {{ 'SERVICES.CTA.PROJECT' | translate }}
+      </span>
+      <span class="next-word">
+        {{ 'SERVICES.CTA.END' | translate }}
+      </span>
+    </h1>
+
+    <app-button-component 
+      [label]="'SERVICES.CTA.BUTTON' | translate"
+      icon="fa-solid fa-phone"
+      [isDisabled]="false"
+      type="contact-moi">
+    </app-button-component>
+  </div>
+
+</section>

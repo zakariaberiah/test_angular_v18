@@ -1,0 +1,18 @@
+.link-btn {
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 500;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+/* hover */
+.link-btn:hover {
+  color: var(--color-primary);
+}
+
+/* active route */
+.link-btn.active {
+  color: var(--color-primary);
+  font-weight: 700;
+}

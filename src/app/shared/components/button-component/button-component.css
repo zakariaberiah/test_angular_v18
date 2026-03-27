@@ -1,0 +1,77 @@
+/* Base bouton */
+button.app-btn {
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font-weight: 600;
+  transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/* =========================
+   DISCOVER (accent jaune)
+   ========================= */
+button.app-btn.discover {
+  background-color: var(--color-primary);
+  color: var(--btn-text);
+  padding: 1rem 4rem;
+  box-shadow: 0 0 2rem rgba(var(--color-primary-rgb, 79,70,229), 0.4);
+}
+
+button.app-btn.discover:hover {
+  background-color: var(--color-primary-hover);
+}
+
+/* =========================
+   CONTACT (outline)
+   ========================= */
+button.app-btn.contact {
+  background-color: transparent;
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  padding: 1rem 4rem;
+}
+
+button.app-btn.contact:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+/* =========================
+   CONTACT-MOI (variant accent)
+   ========================= */
+button.app-btn.contact-moi {
+  padding: 1.5rem 4rem;
+  background-color: var(--color-accent);
+  color: var(--color-text-inverse);
+}
+
+button.app-btn.contact-moi:hover {
+  filter: brightness(1.1);
+}
+
+/* =========================
+   PRIMARY (neutral)
+   ========================= */
+button.app-btn.primary {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text);
+  padding: 0.5rem 2rem;
+  border: 1px solid var(--color-border);
+}
+
+button.app-btn.primary:hover {
+  border-color: var(--color-primary);
+}
+@media (max-width: 768px) {
+  .btn-label {
+    display: none;
+  }
+
+  button.app-btn {
+    padding: 0.8rem; /* réduit car plus de texte */
+  }
+}

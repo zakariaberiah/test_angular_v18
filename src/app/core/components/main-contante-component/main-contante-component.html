@@ -1,0 +1,70 @@
+<section class="main-section">
+  <div class="main-containte">
+    <div class="titel">
+      <div class="a">{{'HOME.TITLE' | translate }}</div>
+      <div class="b">
+        <button class="button" (click)= "downloadCV()" >
+          <i class="fa-solid fa-download"></i>
+          <span class="btn-text">{{ currentLang === 'en' ? 'Download CV' : 'Télécharger CV' }}</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="second-titel">
+      <div class="c">
+        <p>{{ 'HOME.DESCRIPTION' | translate }}</p>
+      </div>
+      <div class="n">{{ 'HOME.JOB' | translate }}</div>
+    </div>
+  </div>
+
+  <div class="buttons-items">
+    @for (item of items ; track item.id) {
+       <app-button-component
+   [label]="item.label"
+   [icon]="item.icon"
+   [type]="item.type"
+   [isDisabled]="item.isDisabled"
+ >
+ </app-button-component>
+    }
+   
+   
+   
+   
+   
+   
+   
+  </div>
+
+  <div class="card-slider">
+    <div class="card-track">
+      @for (service of services; track service.id) {
+      <app-card-project-component
+        [domain]="service.domain | translate"
+        [titel]="service.titel | translate"
+        [description]="service.description | translate"
+        [moreInfo]="service.moreInfo | translate"
+        [archetecture]="service.archetecture | translate"
+      >
+      </app-card-project-component>
+       }
+    </div>
+  </div>
+</section>
+
+<div class="langage">
+  <div class="lang-btn">
+    <span (click)="changeLang('en')">EN</span>
+    <span (click)="changeLang('fr')">FR</span>
+  </div>
+</div>
+
+<div class="toggle-position">
+  <div class="toggle-switch">
+    <label class="switch-label">
+      <input type="checkbox" class="checkbox" (change)="onThemeToggle($event)">
+      <span class="slider"></span>
+    </label>
+  </div>  
+</div>

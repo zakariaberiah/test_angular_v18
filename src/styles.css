@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'variables.css';
+
+
+/* styles.css */
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: "Satoshi sans";
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+@font-face {
+  font-family: 'Satoshi sans';
+  src: url('assets/fonts/satoshi/Satoshi-Black.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+body {
+  background: var(--color-bg);
+  color:var(--color-text);
+  transition:var(--transition);
+}
+
+body.dark-mode {
+  background:var(--color-bg);
+  color:var(--color-text);
+  transition: var(--transition);
+}

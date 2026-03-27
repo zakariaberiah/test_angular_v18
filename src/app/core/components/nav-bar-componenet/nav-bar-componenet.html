@@ -1,0 +1,21 @@
+<div class="nav-section">
+
+  <div class="nav-info">
+    <h3 class="name">Zaki Berriah</h3>
+    <span class="position"> {{ 'NAV.BASED' | translate }}</span>
+  </div>
+<ul class="nav-list" [class.open]="menuOpen">
+  @for (item of items; track item.id){
+    <li (click)="menuOpen = false">
+      <app-link-component 
+        [title]="item.name | translate" 
+        [sectionId]="item.section">
+      </app-link-component>
+    </li>
+  }
+</ul>
+  <div class="hamburger" (click)="toggleMenu()">
+    &#9776; <!-- unicode burger ☰ -->
+  </div>
+
+</div>

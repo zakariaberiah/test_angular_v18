@@ -1,0 +1,94 @@
+.card-container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--color-border);
+  padding: 1rem 0;
+  transition: var(--transition);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 70%;
+}
+
+/* Titre et ligne décorative */
+.tetil {
+  position: relative;
+  padding-left: 1rem;
+}
+
+.tetil h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 2rem 0;
+  color: var(--color-text);
+  transition: var(--transition);
+}
+
+.tetil::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 30px;
+  bottom: 30px;
+  width: 4px;
+  background-color: var(--color-primary);
+  opacity: 0.35;
+  transition: var(--transition);
+}
+
+/* Description */
+.discription p {
+  padding: 0 1rem;
+  text-align: start;
+  opacity: 0.75;
+  font-size: 1rem;
+  width: 60%;
+  margin: 0;
+  color: var(--color-text-muted);
+}
+
+/* Icône */
+.icon i {
+  font-size: 3rem;
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+.icon {
+  text-align: center;
+}
+
+/* Hover sur toute la carte */
+.card-container:hover .tetil h3 {
+  color: var(--color-primary);
+}
+
+.card-container:hover .tetil::after {
+  background-color: var(--color-primary);
+  opacity: 1;
+}
+
+.card-container:hover .icon i {
+  color: var(--color-primary);
+}
+
+/* Responsive simple */
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .discription p {
+    width: 100%;
+  }
+
+  .icon {
+    margin-top: 1rem;
+  }
+}

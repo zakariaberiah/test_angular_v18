@@ -1,0 +1,46 @@
+.tech-card {
+  width: 260px;
+  padding: 2rem;
+
+  background: var(--card-bg);
+
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--card-border);
+
+  text-align: center;
+  transition: var(--transition);
+
+  box-shadow: var(--shadow-sm);
+}
+
+/* Icon */
+.tech-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+/* Title */
+.tech-card h3 {
+  margin-bottom: 0.7rem;
+  color: var(--color-text);
+}
+
+/* Description */
+.tech-card p {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+/* Hover */
+.tech-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-primary);
+}
+.tech-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(79, 70, 229, 0.15);
+  border-color: var(--color-primary);
+}

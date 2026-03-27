@@ -1,0 +1,264 @@
+.main-section{
+  display: flex;
+  flex-direction: column;
+  padding: clamp(2rem, 5vw, 3rem);
+  position: relative;
+overflow-x: hidden;
+  width: 100%;
+  
+}
+.main-containte{
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.5rem, 1vw ,2rem);
+  padding: 4rem 0;
+}
+.titel{
+  display: flex;
+ font-size: clamp( 3rem, 5vw, 5rem);
+   justify-content: space-around;
+   justify-content: space-between;
+
+}
+.second-titel{
+  display: flex;
+  gap: clamp(0.5rem, 1vw, 2rem);
+  align-items: center;
+  
+}
+.a{
+  flex: 1;
+}
+.b{
+  flex:clamp(4% , 1vw, 10%);
+ text-align: center;
+}
+.button{
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  padding: clamp(0.4rem, 4vw, 0.6rem) clamp(2rem, 5vw, 4rem);
+  border-radius: 1.2rem;
+  border: 1px solid var(--color-text);
+}
+.c{
+  flex: 0 0 50%;
+}
+.c p{
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+  font-family:"Satoshi" ;
+}
+.n{
+ font-size: clamp( 3rem, 5vw, 5rem);
+  flex: 0 0 1;
+  position: relative;
+  z-index: 1;
+}
+.icon{
+  border-radius: 50%;
+  background-color: var(--color-text);
+  color: var(--color-text-inverse);
+  padding: 0.6rem;
+  margin-left: 1rem;
+  z-index: 1;
+  position: relative;
+  border: none;
+}
+.buttons-items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:clamp(1rem , 1vw , 2rem);
+}
+.n::after{
+  content: "";
+background: #a926bd;
+background: radial-gradient(circle,rgba(169, 38, 189, 1) 0%, rgba(93, 102, 201, 1) 100%);
+  position: absolute;
+  inset: -60px 0 -80px 0;
+  z-index: -1;
+  padding: 4rem;
+    border-radius:50%;
+   opacity:.35;
+   filter:blur(50px);
+}
+.n::before{
+  content:"";
+  position:absolute;
+  inset:-40px -60px -40px -60px;
+  background:radial-gradient(circle,#ec4899 0%, #a855f7 100%);
+  filter:blur(70px);
+  opacity:.25;
+  z-index:-2;
+  border-radius:60% 40% 50% 50% / 40% 60% 40% 60%;
+}
+
+
+.card-slider{
+  width:100%;
+  overflow:hidden;
+  position:relative;
+  padding:3rem 0;
+}
+
+.card-track {
+  display: flex;
+  gap: 2%; /* petit écart entre cartes */
+  width: max-content;
+  animation: slideCards 20s linear infinite;
+}
+@keyframes slideCards{
+
+  0%{
+    transform:translateX(0);
+  }
+
+  100%{
+    transform:translateX(-50%);
+  }
+
+  
+}
+.langage{
+  position: absolute;
+ top: -20px;
+  right: 0;
+  transform: translateX(30px);
+}
+
+
+.lang-btn{
+  width:clamp(8rem ,13vw , 10rem);
+  height:clamp(8rem ,13vw , 10rem);
+  border-radius:50%;
+  background:var(--color-bg);
+  border:2px solid var(--color-border);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  color:var(--color-text);
+  cursor:pointer;
+
+}
+.lang-btn span{
+  line-height:1.2;
+  font-size: clamp(0.6rem , 2vw , 1.1rem);
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+/* From Uiverse.io by Madflows */ 
+.toggle-switch {
+  position: relative;
+  width: clamp(40px, 10vw, 100px);
+  height:  clamp(20px, 10vw, 100px);
+  --light: #ffffff;
+  --dark: #28292c;
+ 
+ 
+}
+
+.switch-label {
+  position: absolute;
+  width: 100%;
+  height: 45px;
+  background-color: var(--dark);
+  border-radius: 25px;
+  cursor: pointer;
+  border: 3px solid var(--dark);
+}
+
+.checkbox {
+  position: absolute;
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.checkbox:checked ~ .slider {
+  background-color: var(--light);
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  top:8px;
+  left: 8px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 10px -4px 0px 0px var(--light);
+  box-shadow: inset 10px -4px 0px 0px var(--light);
+  background-color: var(--dark);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.checkbox:checked ~ .slider::before {
+  -webkit-transform: translateX(50px);
+  -ms-transform: translateX(40px);
+  transform: translateX(40px);
+  background-color: var(--dark);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.toggle-position{
+  position: absolute;
+  top: 10rem;
+  right: 2rem;
+  display: flex;
+  flex-direction: column;
+
+}
+@media(max-width:600px) {
+  .button{
+    padding: 0.4rem 1rem;
+  }
+  .titel{
+   font-size: clamp(1.8rem, 1vw ,3.2rem);
+  }
+  .c p{
+    font-size:0.8rem;
+    line-height: 1; 
+  }
+  .n{
+  font-size: clamp(1.8rem, 1vw ,3.2rem);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

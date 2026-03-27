@@ -1,0 +1,119 @@
+{
+  "HOME": {
+    "TITLE": "Full-stack",
+    "RESUME": "Resume",
+    "DESCRIPTION": "Innovation, performance, and design come together here: each project is carefully crafted to transform your ideas into unique and memorable digital experiences.",
+    "JOB": "Developer"
+  },
+
+  "NAV": {
+    "PORTFOLIO": "Portfolio",
+    "RESUME": "Resume",
+    "CONTACT": "Services",
+    "ABOUT": "About",
+    "BASED": "Based in Algeria"
+  },
+
+  "SERVICES": {
+    "TITLE": "Services",
+    "WEB": "Web Development",
+    "ANGULAR": "Angular Application",
+    "SPRING": "Spring Boot Application",
+    "BACKEND": "Secure REST API",
+    "DATABASE": "Data Management",
+    "DEVOPS": "Cloud Deployment",
+    "MORE": "Learn more",
+    "DESC_WEB": "Development of robust and scalable web applications.",
+    "DESC_ANGULAR": "Creation of modern interfaces with Angular.",
+    "DESC_BACKEND": "Design of secure and high-performance APIs.",
+    "DESC_DATABASE": "Management and optimization of relational and non-relational databases.",
+    "DESC_DEVOPS": "Cloud deployment, CI/CD pipelines, and containerized application management.",
+     "CUSTOM": {
+      "WEB_TITLE": "Web Development",
+      "WEB_DESC": "Creation of modern and high-performance websites, optimized for all devices to ensure an excellent user experience.",
+
+      "FULLSTACK_TITLE": "Full Stack Development",
+      "FULLSTACK_DESC": "Design of complete front-end and back-end applications, secure and scalable for any type of project.",
+
+      "SYSTEM_TITLE": "Information Systems",
+      "SYSTEM_DESC": "Implementation and management of efficient information systems, including databases, workflows, and process automation."
+    },
+    "CTA": {
+  "START": "Start your",
+  "PROJECT": "next",
+  "END": "project",
+  "BUTTON": "Let's talk"
+}
+  },
+
+  "ABOUT": {
+    "TITLE": "About Me",
+    "TITLE1": "Passionate",
+    "TITLE2":"Creative",
+    "TITLE3":"Developer",
+    "LOCATION": "Based in Algeria",
+    "TITLE4": "A Journey of Curiosity and Exploration",
+    "DESCRIPTION": "I am a full-stack developer and systems engineer specialized in building high-performance applications and robust architectures.\n\nI help companies and individuals create modern, secure, and scalable solutions by combining software development and infrastructure expertise.\n\nEach project represents an opportunity for me to explore new technologies and deepen my knowledge in software engineering, system architecture, and performance optimization.",
+    "JOB": "Developer"
+  },
+  "TECH": {
+  "TITLE":"Technologies used",
+  "SPRING": "Spring Boot",
+  "JAVA": "Java",
+  "ANGULAR": "Angular",
+  "TYPESCRIPT": "TypeScript",
+  "REST": "REST API",
+  "MICROSERVICES": "Microservices",
+  "DOCKER": "Docker",
+  "LINUX": "Linux",
+  "CICD": "CI/CD",
+  "UML": "UML",
+  "BPMN": "BPMN",
+
+  "DESC_SPRING": "Java framework for building robust backend applications and microservices.",
+  "DESC_JAVA": "Primary language used for backend development and distributed system architectures.",
+  "DESC_ANGULAR": "Frontend framework for building modern and dynamic web interfaces.",
+  "DESC_TYPESCRIPT": "JavaScript superset that enables more maintainable frontend applications.",
+  "DESC_REST": "Design and development of secure REST APIs for communication between services.",
+  "DESC_MICROSERVICES": "Distributed architecture enabling scalable and modular system development.",
+  "DESC_DOCKER": "Containerization platform for deploying and isolating applications.",
+  "DESC_LINUX": "Administration and management of Linux systems for server environments.",
+  "DESC_CICD": "Automation of build, testing, and application deployment processes.",
+  "DESC_UML": "Modeling of software systems using class, sequence, and component diagrams.",
+  "DESC_BPMN": "Business process modeling for analyzing and designing workflows."
+}
+,
+"EXPERIENCE": {
+  "TITLE": "Experience & Expertise",
+
+  "FULLSTACK": {
+    "TITLE": "Full Stack Web Development",
+    "YEARS": "+4 years (HTML/CSS), +2 years (Angular/Tailwind)",
+    "DESC": "Expertise focused on building modern and high-performance user interfaces."
+  },
+
+  "BACKEND": {
+    "TITLE": "Backend Architecture",
+    "YEARS": "+4 years (Java), 2 years (Kotlin)",
+    "DESC": "Design of robust and scalable systems for enterprise applications."
+  },
+
+  "DEVOPS": {
+    "TITLE": "DevOps & Infrastructure",
+    "YEARS": "+2 years",
+    "DESC": "Automation of deployments and management of cloud environments."
+  },
+
+  "MASTER": {
+    "TITLE": "Master’s in Information Systems",
+    "YEARS": "Graduated",
+    "DESC": "Specialized in software development with strong foundations in UML & BPMN."
+  },
+
+  "STARTUP": {
+    "TITLE": "Startup Founder",
+    "YEARS": "Ongoing",
+    "DESC": "Technical leadership and design of innovative digital solutions."
+  }
+}
+}

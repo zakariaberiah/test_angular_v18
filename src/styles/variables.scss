@@ -1,0 +1,38 @@
+/* ================= VARIABLES SCSS ================= */
+
+/* ================= LIGHT THEME ================= */
+:root {
+  --bg-main: #ffffff;
+  --bg-card: #ffffff;
+
+  --text-primary: #1a1a1a;
+  --text-secondary: #555555;
+
+  --accent: #f5c25c;
+  --accent-hover: #e6b24d;
+
+  --border: #e5e7eb;
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+/* ================= DARK THEME ================= */
+.dark-theme {
+  --bg-main: #0f0f11;
+  --bg-card: #1a1a1f;
+
+  --text-primary: #f5f5f5;
+  --text-secondary: #b3b3b3;
+
+  --accent: #f5c25c;
+  --accent-hover: #ffd675;
+
+  --border: rgba(255, 255, 255, 0.08);
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Global */
+body {
+  background: var(--bg-main);
+  color: var(--text-primary);
+  transition: 0.3s ease;
+}

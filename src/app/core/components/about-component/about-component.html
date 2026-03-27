@@ -1,0 +1,47 @@
+<section class="about-section">
+  <!-- TITEL ABOUT ME -->
+   <div class="about-title">
+   <app-titel-component [title]="'ABOUT.TITLE' | translate"
+   ></app-titel-component>
+   </div>
+
+  <!-- HEADER -->
+  <div class="about-header">
+    <h1 class="description">
+  <span>{{'ABOUT.TITLE1' | translate }}</span>
+  <span>{{'ABOUT.TITLE2' | translate }}</span>
+  <span>{{'ABOUT.TITLE3' | translate }}</span>
+    </h1>
+    <p class="location">{{'ABOUT.LOCATION' | translate }}</p>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="about-content">
+
+    <div class="about-left">
+      <h3>
+        {{'ABOUT.TITLE4' | translate }}
+      </h3>
+    </div>
+
+    <div class="about-right">
+      <p>{{'ABOUT.DESCRIPTION' | translate }}</p>
+    </div>
+  </div>
+<div class="technologier-section">
+  <div class="technologier-contente">
+    <div class="technologier-titel">
+       <app-titel-component [title]="'TECH.TITLE' |      translate"></app-titel-component>
+    </div>
+    <div class="technologier-cards">
+      @for ( technologie of technologies; track technologie.id) {
+    <app-technologie-card
+    [title]="technologie.title | translate "
+    [description]="technologie.description | translate "
+    [icon]=technologie.icon
+    ></app-technologie-card>
+      }
+    </div>
+  </div>
+</div>
+</section>
