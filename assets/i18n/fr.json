@@ -1,0 +1,119 @@
+{
+  "HOME": {
+    "TITLE": "Full-stack",
+    "RESUME": "CV",
+    "DESCRIPTION": "Innovation, performance et design se rencontrent ici : chaque projet est conçu avec précision pour transformer vos idées en expériences digitales uniques et mémorables.",
+    "JOB": "Développeur"
+  },
+
+  "NAV": {
+    "PORTFOLIO": "Portfolio",
+    "RESUME": "CV",
+    "CONTACT": "Services",
+    "ABOUT": "À propos",
+    "BASED": "Basé en Algérie"
+  },
+
+  "SERVICES": {
+    "TITLE": "Services",
+    "WEB": "Développement Web",
+    "ANGULAR": "Application Angular",
+    "SPRING": "Application Spring Boot",
+    "BACKEND": "API REST sécurisée",
+    "DATABASE": "Gestion des données",
+    "DEVOPS": "Déploiement Cloud",
+    "MORE": "En savoir plus",
+    "DESC_WEB": "Développement d'applications web robustes et scalables.",
+    "DESC_ANGULAR": "Création d'interfaces modernes avec Angular.",
+    "DESC_BACKEND": "Conception d'API sécurisées et performantes.",
+    "DESC_DATABASE": "Gestion et optimisation des bases de données relationnelles et non relationnelles.",
+    "DESC_DEVOPS": "Déploiement Cloud, pipelines CI/CD et gestion des applications conteneurisées.",
+    "CUSTOM": {
+  "WEB_TITLE": "Développement de site web",
+  "WEB_DESC": "Création de sites web modernes et performants, adaptés à tous les appareils pour une expérience utilisateur optimale.",
+
+  "FULLSTACK_TITLE": "Développement Full Stack",
+  "FULLSTACK_DESC": "Conception d’applications complètes côté front-end et back-end, sécurisées et évolutives pour tout type de projet.",
+
+  "SYSTEM_TITLE": "Systèmes d’information",
+  "SYSTEM_DESC": "Mise en place et gestion de systèmes d’information efficaces, intégrant bases de données, flux et automatisation des processus."
+},
+
+"CTA": {
+  "START": "Commencez votre",
+  "PROJECT": "prochain",
+  "END": "projet",
+  "BUTTON": "Prenons contact"
+}
+  },
+
+  "ABOUT": {
+    "TITLE": "À propos de moi",
+    "TITLE1": "Passionné",
+    "TITLE2":"Créatif",
+    "TITLE3":"Développeur",
+    "LOCATION": "Basé en Algérie",
+    "TITLE4": "Une aventure de curiosité et\n d’exploration",
+    "DESCRIPTION": "Je suis un développeur full stack et ingénieur système spécialisé dans la conception d’applications performantes et d’architectures robustes.\n\nJ’accompagne entreprises et particuliers dans la création de solutions modernes, sécurisées et évolutives, en combinant développement logiciel et expertise infrastructure.\n\nChaque projet représente pour moi une opportunité d’explorer de nouvelles technologies et d’approfondir mes connaissances en ingénierie logicielle, architecture système et optimisation des performances.",
+    "JOB": "Développeur"
+  },
+  "TECH": {
+  "TITLE":"Technologies utilisées",
+  "SPRING": "Spring Boot",
+  "JAVA": "Java",
+  "ANGULAR": "Angular",
+  "TYPESCRIPT": "TypeScript",
+  "REST": "API REST",
+  "MICROSERVICES": "Microservices",
+  "DOCKER": "Docker",
+  "LINUX": "Linux",
+  "CICD": "CI/CD",
+  "UML": "UML",
+  "BPMN": "BPMN",
+
+  "DESC_SPRING": "Framework Java pour créer des applications backend robustes et des microservices.",
+  "DESC_JAVA": "Langage principal utilisé pour le développement backend et les architectures distribuées.",
+  "DESC_ANGULAR": "Framework frontend pour développer des interfaces web dynamiques et modernes.",
+  "DESC_TYPESCRIPT": "Extension de JavaScript permettant de créer des applications frontend plus maintenables.",
+  "DESC_REST": "Conception et développement d’API REST sécurisées pour la communication entre services.",
+  "DESC_MICROSERVICES": "Architecture distribuée permettant de développer des systèmes scalables et modulaires.",
+  "DESC_DOCKER": "Plateforme de conteneurisation pour déployer et isoler les applications.",
+  "DESC_LINUX": "Administration et gestion des systèmes Linux pour les environnements serveur.",
+  "DESC_CICD": "Automatisation du build, des tests et du déploiement des applications.",
+  "DESC_UML": "Modélisation des systèmes logiciels avec des diagrammes de classes, de séquence et de composants.",
+  "DESC_BPMN": "Modélisation des processus métier pour analyser et concevoir les workflows."
+},
+"EXPERIENCE": {
+  "TITLE": "Parcours & Expertise",
+
+  "FULLSTACK": {
+    "TITLE": "Développement Web Full Stack",
+    "YEARS": "+4 ans (HTML/CSS), +2 ans (Angular/Tailwind)",
+    "DESC": "Expertise centrée sur la création d'interfaces modernes et performantes."
+  },
+
+  "BACKEND": {
+    "TITLE": "Architecture Backend",
+    "YEARS": "+4 ans (Java), 2 ans (Kotlin)",
+    "DESC": "Conception de systèmes robustes et scalables pour des applications d'entreprise."
+  },
+
+  "DEVOPS": {
+    "TITLE": "DevOps & Infrastructure",
+    "YEARS": "+2 ans",
+    "DESC": "Automatisation des déploiements et gestion des environnements cloud."
+  },
+
+  "MASTER": {
+    "TITLE": "Master en Systèmes d'Information",
+    "YEARS": "Diplômé",
+    "DESC": "Spécialisation en développement logiciel. Bases solides en UML & BPMN."
+  },
+
+  "STARTUP": {
+    "TITLE": "Fondateur de Startup",
+    "YEARS": "En cours",
+    "DESC": "Direction technique et conception de solutions digitales innovantes."
+  }
+}
+}
